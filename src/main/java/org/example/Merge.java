@@ -31,6 +31,6 @@ public class Merge {
         for(int i = 0; i < fileNames.size(); i ++){
             pdf.addSource(fileNames.get(i));
         }
-        pdf.mergeDocuments();
+        pdf.mergeDocuments(null);
     }
 }
